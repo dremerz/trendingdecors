@@ -1,0 +1,56 @@
+< desktop >  
+
+217 > nav bart logo
+235 >home 
+250 > pages
+274 > service
+285 > portfolio
+358 > blog
+374 > contact 
+390 > for search and search form 
+408 > more button 
+634 > side panel 
+648 >  side logo 
+656 > our galay 
+668 > side panel galary iage location => ./wp-content/uploads/2020/05/p3-gallery2.jpg
+692 to 868 > contact info 
+883 > slider
+942 > social media on left 
+1009 > banner 
+1025 > david photo 
+1043  >>> from sketch of life left banner 
+1064 > view projects 	
+1083   > our partners logos 
+1099 > banner 2 
+1159 > what we can offer   ?? 1169 cont 1 ??   1185 cont 2 ?? 1206 ??  cont 3 
+1229 current clients 
+1301 >  images 
+1434 > banner 3
+1463 >>> our corte company 
+1530 our most skilled team 
+1799 > footer
+
+< mobile >
+
+433 > logo 
+453 > search 
+458 > button
+479 > home
+493 > pages 
+517 > services
+528 > portfolio
+601 > blog 
+618 > contact 
+
+
+
+
+
+
+
+
+
+
+
+
+
