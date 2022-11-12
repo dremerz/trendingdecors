@@ -1,0 +1,39 @@
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" width="30px">
+      <defs />
+      <defs>
+        <filter
+          id="svg-hdfc-a"
+          width="104.4%"
+          height="109.3%"
+          x="-2%"
+          y="-5%"
+          filterUnits="objectBoundingBox">
+          <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+          <feGaussianBlur
+            in="shadowOffsetOuter1"
+            result="shadowBlurOuter1"
+            stdDeviation="2"
+          />
+          <feColorMatrix
+            in="shadowBlurOuter1"
+            result="shadowMatrixOuter1"
+            values="0 0 0 0 0.86131382 0 0 0 0 0.870479167 0 0 0 0 0.900754929 0 0 0 0.4 0"
+          />
+          <feMerge>
+            <feMergeNode in="shadowMatrixOuter1" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+      <g
+        fill="none"
+        fillRule="nonzero"
+        filter="url(#svg-hdfc-a)"
+        transform="translate(-154 -158)">
+        <path fill="#ED232A" d="M158 160h28v28h-28z" />
+        <path fill="#FFF" d="M163 165h18v18h-18z" />
+        <path fill="#FFF" d="M171 160h3v28h-3z" />
+        <path fill="#FFF" d="M158 173h28v3h-28z" />
+        <path fill="#004C8F" d="M168 170h8v9h-8z" />
+      </g>
+    </svg>

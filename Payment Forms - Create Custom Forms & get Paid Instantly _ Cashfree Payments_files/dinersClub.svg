@@ -1,0 +1,46 @@
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 34" width="33px">
+      <defs>
+        <path
+          id="svg-dinersclub-reuse-0"
+          fill="#FFF"
+          d="M67.8384 78.05c-6.4207.002-11.6236 5.2064-11.625 11.6296.0014 6.4222 5.2043 11.626 11.625 11.628 6.4222-.002 11.6261-5.2058 11.627-11.628-.001-6.4232-5.2048-11.6276-11.627-11.6296zm-7.3688 11.6296c.006-3.1387 1.9663-5.8153 4.7306-6.8789v13.7562c-2.7643-1.063-4.7246-3.738-4.7306-6.8773zm10.006 6.8804V82.8002c2.7653 1.061 4.7286 3.7391 4.7336 6.8794-.005 3.1413-1.9683 5.8173-4.7336 6.8804z"
+        />
+      </defs>
+      <defs>
+        <filter
+          id="svg-dinersclub-a"
+          width="104.4%"
+          height="114.1%"
+          x="-2.2%"
+          y="-7.1%"
+          filterUnits="objectBoundingBox">
+          <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+          <feGaussianBlur
+            in="shadowOffsetOuter1"
+            result="shadowBlurOuter1"
+            stdDeviation="2"
+          />
+          <feColorMatrix
+            in="shadowBlurOuter1"
+            result="shadowMatrixOuter1"
+            values="0 0 0 0 0.86131382 0 0 0 0 0.870479167 0 0 0 0 0.900754929 0 0 0 0.4 0"
+          />
+          <feMerge>
+            <feMergeNode in="shadowMatrixOuter1" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+      <g
+        fill="none"
+        fillRule="nonzero"
+        filter="url(#svg-dinersclub-a)"
+        transform="translate(-51 -75)">
+        <path
+          fill="#0079BE"
+          d="M73.7857 102.4047c6.9434.033 13.281-5.6628 13.281-12.592 0-7.5776-6.3376-12.8152-13.281-12.8127h-5.9756C60.7836 76.9975 55 82.2367 55 89.8126c0 6.9308 5.7836 12.6252 12.8101 12.592h5.9756z"
+        />
+        <use xlinkHref="#svg-dinersclub-reuse-0" />
+        <use xlinkHref="#svg-dinersclub-reuse-0" />
+      </g>
+    </svg>

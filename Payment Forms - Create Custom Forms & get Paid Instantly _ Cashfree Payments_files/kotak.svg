@@ -1,0 +1,43 @@
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 36" width="32px">
+      <defs />
+      <defs>
+        <filter
+          id="svg-kotak-a"
+          width="104.4%"
+          height="109.3%"
+          x="-2%"
+          y="-5%"
+          filterUnits="objectBoundingBox">
+          <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+          <feGaussianBlur
+            in="shadowOffsetOuter1"
+            result="shadowBlurOuter1"
+            stdDeviation="2"
+          />
+          <feColorMatrix
+            in="shadowBlurOuter1"
+            result="shadowMatrixOuter1"
+            values="0 0 0 0 0.86131382 0 0 0 0 0.870479167 0 0 0 0 0.900754929 0 0 0 0.4 0"
+          />
+          <feMerge>
+            <feMergeNode in="shadowMatrixOuter1" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+      <g
+        fill="none"
+        fillRule="evenodd"
+        filter="url(#svg-kotak-a)"
+        transform="translate(-49 -158)">
+        <path
+          fill="#1F4578"
+          d="M53 174c0-8 7-14 16-14s16 6 16 14c0 7-7 14-16 14s-16-7-16-14"
+        />
+        <path fill="#ED3338" d="M67 164l4-1v20l-4 2z" />
+        <path
+          fill="#FFF"
+          d="M69 177c-1 2-3 4-6 4-4 0-6-4-6-7 0-4 2-7 6-7l4 2v2l-4-1c-2 0-5 1-5 4 0 2 2 3 4 3s4-3 5-4l2-2c1-3 3-4 6-4s5 2 6 5h-2l-3-1c-2 0-4 2-5 4l-2 2zm12-2c0 3-2 6-5 6s-4-1-5-3v-2l4 1c2 0 4 0 4-2h2z"
+        />
+      </g>
+    </svg>
