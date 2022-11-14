@@ -492,7 +492,7 @@ display: none;
  
 </head>
 
-<body  class="home page-template-default page page-id-320 header-horizontal royal_preloader elementor-default elementor-kit-7 elementor-page elementor-page-320">
+<body   class="home page-template-default page page-id-320 header-horizontal royal_preloader elementor-default elementor-kit-7 elementor-page elementor-page-320">
 
 	
 
@@ -2492,12 +2492,23 @@ document.getElementById("fle").appendChild(video)
 	<br>
 
 
-<div>
-	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-203ec674-f703-4a41-a0cc-4db57ba53e53"></div>
 
 
+
+	<div style="display: flex;flex-wrap: wrap;justify-content: center;" onclick="fun12()" >
+<div style="background-color:whitesmoke;padding: 10px;border-radius: 10px;width: 200px;text-align: center;height: 150px;">
+	<img style="width: 50px;" src="./google.png" >	
+	<div>Rating</div>
+	<img style="width: 20px;" src="./star.png" >	
+	<img style="width: 20px;" src="./star.png" >	
+	<img style="width: 20px;" src="./star.png" >	
+	<img style="width: 20px;" src="./star.png" >	
+	<img style="width: 20px;" src="./star.png" >	
 	</div>
+	</div>
+
+
+
 
 <br>
 <br>
@@ -3038,5 +3049,216 @@ var wpcf7 = {"api":{"root":".\/wp-json\/","namespace":"contact-form-7\/v1"}};
 <script>
 
 </script>
+
 </body>
+<div id="kokokkookok">
+	<div id="lolpopipo">
+	<div style="position:fixed;border-radius: 10px;width: 14px;top: 0px;left: 305px;"><img onclick="fun12a()" src="./x.webp"></div>
+	
+	<div id="renderelement">
+	
+</div>
+	</div>
+
+<style>
+	#lolpopipo{
+		display: none;
+	}
+	.div1lol{
+		display: flex;
+		justify-content: left;
+		flex-wrap: wrap;
+		flex-direction: row;
+
+	}
+
+	.div3lol{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: left;
+		flex-direction: column;
+		margin-left: 20px;
+
+	}
+	.kkppoo{
+		font-size: small;
+		margin-top: 10px;
+		padding: 20px;
+		height: 100px;
+		overflow-y: scroll;
+	}
+
+
+
+	.lolpopipo::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.lolpopipo::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.lolpopipo::-webkit-scrollbar-thumb {
+  background: rgb(2, 108, 151); 
+}
+
+/* Handle on hover */
+.lolpopipo::-webkit-scrollbar-thumb:hover {
+	background: rgba(2, 109, 151, 0.605); 
+
+
+}
+
+
+
+
+	.kkppoo::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+.kkppoo::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.kkppoo::-webkit-scrollbar-thumb {
+  background: rgb(2, 108, 151); 
+}
+
+/* Handle on hover */
+.kkppoo::-webkit-scrollbar-thumb:hover {
+	background: rgba(2, 109, 151, 0.605); 
+
+
+}
+	.jk{
+		font-size: smaller;
+		margin-left: 140px;
+	}
+.gh{
+	border-bottom: 1px solid  rgb(2, 108, 151);
+}
+	</style>
+
+<script>
+	lolpoploliopoio()
+
+	function lolpoploliopoio() {
+		var l;
+		
+console.log("pooplpopopo its the fucking happy")
+
+
+
+fetch("https://api.reviewsmaker.com/gmb/?placeid=ChIJ-Xrr-SFhUjoRN-SBYzut6n4")
+  .then((response) => response.json())
+  .then((data) =>{ 
+	console.log(data);
+	console.log(data);
+	for (let index = 0; index < data.reviews.length; index++) {
+		var t=document.createElement("div");
+		t.innerHTML=data.rating;
+		
+		var s=document.createElement("span");
+		s.innerHTML=data.total_reviews + "reviews";
+		t.appendChild(s);
+
+	var img=document.createElement("img");
+	var img2=document.createElement("img");
+	img2.src="./star.png";
+	img2.style.width="25px";
+	img2.style.paddingLeft="10px";
+img.style.width="50px";
+var div=document.createElement("div");
+div.className="gh";
+div.style.borderBottom="1px solid grey"
+var div1=document.createElement("div");
+var div2=document.createElement("div");
+var div3=document.createElement("div");
+var div4=document.createElement("div");
+var div5=document.createElement("div");
+var div6=document.createElement("div");
+div1.appendChild(div2);
+div1.appendChild(div3);
+div3.appendChild(div4);
+div3.appendChild(div5);
+div1.className="div1lol";
+div3.className="div3lol";
+div2.className="lolpopipopopopo"
+div2.appendChild(img);
+img.src=data.reviews[index].reviewAuthorImage;
+div4.innerHTML=data.reviews[index].reviewAuthor;
+div5.innerHTML=data.reviews[index].reviewRating;
+div5.appendChild(img2)
+div.appendChild(div1);
+
+
+document.getElementById("renderelement").appendChild(div1)
+
+var v=document.createElement("div");
+var vv=document.createElement("p");
+vv.innerHTML=data.reviews[index].reviewText;	
+vv.className="kkppoo"
+v.appendChild(vv);
+var r =document.createElement("div");
+r.innerText=data.reviews[index].reviewDate;
+r.className="jk"
+document.getElementById("renderelement").appendChild(v);
+document.getElementById("renderelement").appendChild(r);
+document.getElementById("renderelement").appendChild(document.createElement("br"))
+
+console.log("sucessfull")
+	
+}
+	
+
+	
+})
+
+
+
+	}
+	
+	</script>
+
+
+	<script>
+
+		function fun12(){
+			var a=document.getElementById("lolpopipo");
+			a.style.display="block"
+		}
+		function fun12a(){
+			var a=document.getElementById("lolpopipo");
+			a.style.display="none";
+		}
+		lolpopipo()
+		function lolpopipo() {
+			console.log("its working bro");
+			var a=document.getElementById("lolpopipo");
+			var b=document.getElementById("kokokkookok");
+
+
+
+			a.style.backgroundColor="whiteSmoke";
+			a.style.position="fixed";
+			a.style.width="350px";
+			a.style.height=window.screen.height+"px";
+			a.style.top="0px";
+			a.style.left="0px";
+			a.style.zIndex="129999999999999";
+			a.style.padding="10px"
+			a.style.overflowY="scroll";
+			a.style.overflowWrap="breakWord"
+
+			console.log("its working bro 222");
+
+
+
+
+		}
+		</script>
 </html>
