@@ -3053,7 +3053,7 @@ var wpcf7 = {"api":{"root":".\/wp-json\/","namespace":"contact-form-7\/v1"}};
 </body>
 <div id="kokokkookok">
 	<div id="lolpopipo">
-	<div style="position:fixed;border-radius: 10px;width: 14px;top: 0px;left: 305px;"><img onclick="fun12a()" src="./x.webp"></div>
+	<div style="position:fixed;border-radius: 10px;width: 14px;top: 0px;position: sticky;float: right;"><img onclick="fun12a()" src="./x.webp"></div>
 	
 	<div id="renderelement">
 	
@@ -3077,6 +3077,7 @@ var wpcf7 = {"api":{"root":".\/wp-json\/","namespace":"contact-form-7\/v1"}};
 		flex-wrap: wrap;
 		justify-content: left;
 		flex-direction: column;
+		padding: 5px;
 		margin-left: 20px;
 
 	}
@@ -3084,6 +3085,9 @@ var wpcf7 = {"api":{"root":".\/wp-json\/","namespace":"contact-form-7\/v1"}};
 		font-size: small;
 		margin-top: 10px;
 		padding: 20px;
+		border: 1px solid rgba(128, 128, 128, 0.269);
+	
+
 		height: 100px;
 		overflow-y: scroll;
 	}
@@ -3136,7 +3140,8 @@ var wpcf7 = {"api":{"root":".\/wp-json\/","namespace":"contact-form-7\/v1"}};
 }
 	.jk{
 		font-size: smaller;
-		margin-left: 140px;
+		float: right;
+		position: sticky;
 	}
 .gh{
 	border-bottom: 1px solid  rgb(2, 108, 151);
@@ -3172,6 +3177,7 @@ fetch("https://api.reviewsmaker.com/gmb/?placeid=ChIJ-Xrr-SFhUjoRN-SBYzut6n4")
 	img2.style.width="25px";
 	img2.style.paddingLeft="10px";
 img.style.width="50px";
+img.className="imgavater";
 var div=document.createElement("div");
 div.className="gh";
 div.style.borderBottom="1px solid grey"
@@ -3261,4 +3267,32 @@ console.log("sucessfull")
 
 		}
 		</script>
+		<style>
+			@media only screen and (max-width: 380px) {
+#lolpopipo{
+	max-width: 280px;
+}
+.imgavater{
+	max-width: 35px;
+}
+  }
+
+  @media only screen and (max-width: 300px) {
+#lolpopipo{
+	max-width: 250px;
+}
+.imgavater{
+	max-width: 30px;
+}
+  }
+  @media only screen and (max-width: 280px) {
+#lolpopipo{
+	max-width: 22+0px;
+}
+.imgavater{
+	max-width: 30px;
+}
+  }
+	
+			</style>
 </html>
